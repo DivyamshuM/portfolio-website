@@ -9,9 +9,7 @@ export const Skills = () => {
         <div className="text-center mb-5">
           <h2>Skills &amp; Technologies</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+
           </p>
         </div>
         <div className="row">

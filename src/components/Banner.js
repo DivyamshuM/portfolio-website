@@ -64,7 +64,7 @@ export const Banner = () => {
             <div>
               <p>About Me!</p>
               <p className="text-white">
-                Full Stack Developer with 3 years of experience. Expertise in developing scalable web applications using Java, achieving a 20% increase in user engagement. Proficient in HTML5, CSS3, JavaScript / ES6, Angular, and Spring Boot. Proven in database management with MongoDB and MySQL, and deploying applications on GCP and AWS, reducing application downtime by 30%. Developing compliant financial service software, enhancing data security, and improving system performance through collaboration.
+                Full Stack Developer with 3 years of experience. Expertise in developing scalable web applications using Java, Python, C and C++. Proficient in HTML5, CSS3, JavaScript / ES6, Angular, and Spring Boot. Skilled in database management with MongoDB and MySQL, and deploying applications on GCP, AWS and Azure. Developing compliant financial service software, enhancing data security, and improving system performance through collaboration.
               </p>
               <button onClick={() => window.open('https://www.linkedin.com/in/DivyamshuMandadi')}>
                 Let's Connect!
