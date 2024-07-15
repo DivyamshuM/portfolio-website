@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import github from '../assets/img/github.svg';
 //import twitter from '../assets/img/twitter.svg';
-import pdf from '../assets/Divyamshu Reddy Mandadi.pdf';
+import pdf from '../assets/Divyamshu PDF updated.pdf';
 
 
 export const NavBar = () => {

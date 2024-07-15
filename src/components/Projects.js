@@ -10,7 +10,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Smart Task Organizer",
-      description: "Node.js, React, Tailwind, MongoDB",
+      description: "Node.js, Express.js, React, JavaScript, Tailwind, MongoDB",
       imgUrl: projImg1,
       githubLink: "https://github.com/DivyamshuM/to-do-list-with-friends"
     },
