@@ -6,9 +6,9 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Software Engineer", "Full Stack Developer", "Web Developer"];
-  const period = 2000;
+  const [delta, setDelta] = useState(200);
+  const toRotate = ["Full Stack Developer", "Software Engineer", "Web Developer"];
+  const period = 1500;
 
   const tick = useCallback(() => {
     const i = loopNum % toRotate.length;
@@ -18,18 +18,19 @@ export const Banner = () => {
     setText(updatedText);
 
     if (isDeleting) {
-      setDelta(prevDelta => prevDelta / 2);
+      setDelta(100);
+    } else {
+      setDelta(200);
     }
 
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
-      setDelta(period);
+      setTimeout(() => {
+        setDelta(200);
+      }, period);
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setDelta(500);
-    } else {
-      setDelta(prevDelta => prevDelta);
     }
   }, [isDeleting, loopNum, text.length, toRotate, period]);
 
