@@ -58,10 +58,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5} className="d-flex justify-content-end">
             <div>
               <p>About Me!</p>
-              <p className="text-white">
-                Full Stack Developer with 3 years of experience. Expertise in developing scalable web applications using Java, Python, C, and C++. Proficient in HTML5, CSS3, JavaScript / ES6, Angular, and Spring Boot. Skilled in database management with MongoDB and MySQL, and deploying applications on GCP, AWS, and Azure. Developing compliant financial service software, enhancing data security, and improving system performance through collaboration.
-              </p>
-              <button onClick={() => window.open('https://www.linkedin.com/in/DivyamshuMandadi')}>
+              <button>
                 Let's Connect!
               </button>
             </div>

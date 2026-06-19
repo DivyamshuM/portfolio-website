@@ -62,15 +62,13 @@ export const NavBar = () => {
                     </Nav>
                     <Button
                         variant="primary"
-                        href={pdf}
-                        target="_blank"
                         style={{ maxWidth: "250px" }}
                     >
                         &nbsp;Download Resume
                     </Button>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/DivyamshuMandadi" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="LinkedIn" /></a>
+                            <a><img src={navIcon1} alt="LinkedIn" /></a>
                             <a href="https://github.com/DivyamshuM" target="_blank" rel="noopener noreferrer"><img src={github} alt="GitHub" /></a>
                         </div>
                     </span>
